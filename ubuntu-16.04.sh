@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-ln -s .tmux.conf ~/.tmux.conf
-ln -s .tmux.conf.local ~/.tmux.conf.local
+ln -s $(pwd)/.tmux.conf ~/.tmux.conf
+ln -s $(pwd)/.tmux.conf.local ~/.tmux.conf.local
 
-ln -s .zshrc ~/.zshrc
+ln -s $(pwd)/.zshrc ~/.zshrc
 
-ln -s .init.vim ~/.config/nvim/init.vim
+ln -s $(pwd)/.init.vim ~/.config/nvim/init.vim
 
