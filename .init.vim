@@ -15,6 +15,10 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'vim-ruby/vim-ruby'
+
 set clipboard+=unnamedplus
 
 " on pressing tab, insert 2 spaces
@@ -27,4 +31,6 @@ set shiftwidth=2
 
 " set visual selection color
 hi Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40
+
+set tags=tags
 
